@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css?family=Oswald:300,400,900');
+@import url('https://fonts.googleapis.com/css?family=Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+body{
+	font-family: 'Raleway', sans-serif;
+	text-align: center;
+  	background-color: #ffffff;
+}
+h4{
+    margin: 0px;
+    font-size: 2em;
+}
+hr{
+    border-style: dotted;
+    width: 280px;
+}
+.cartouche{
+    width: 300px;
+    height: 90px;
+    margin: 10px auto;
+    text-align: left;
+    padding: 10px;
+}
+.colorVert,colorJaune,colorOrange,colorRouge {
+    color: #ffffff;
+}
+.colorJaune{
+    background-color: #e7e406;
+}
+.colorOrange{
+    background-color: #df9800;
+}
+.colorVert{
+    background-color: #4caf50;
+}
+.colorRouge{
+    background-color: #bc1919;
+}
+.infos{
+    font-size: 1.1em;
+    margin-top: 0px;
+}
+.flex{
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    flex-wrap: wrap;
+}
+.pastille{
+    width: 15px;
+    height: 15px;
+    margin: 0px 5px 0px 8px;
+}
+.legend{
+    font-size: 0.9em;
+    font-style: italic;
+    margin: 4px 0px 4px 0px;
+}
+.boxLegend{
+    width: 300px;
+    margin: 0px auto;
+}
+
