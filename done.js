@@ -49,7 +49,7 @@
 	  data.sort(SortTime);
 	
 	var element = document.getElementById('contain');
-		for (i = data.length-6; i < data.length; i++) {
+		for (i = data.length-5; i < data.length; i++) {
 			element.innerHTML += 
 			"<div class='cartouche color"+data[i].couleur_du_signal_fr+"'><h4>"
 			+deleteLastChar(moment(data[i].gas_day).format('ll'))+
