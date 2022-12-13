@@ -15,6 +15,12 @@ hr{
     border-style: dotted;
     width: 280px;
 }
+mark{
+    background-color: black;
+    font-size: 0.8em;
+    color: #ffffff;
+    padding: 2px;
+}
 .cartouche{
     width: 300px;
     height: 90px;

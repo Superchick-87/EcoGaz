@@ -15,10 +15,16 @@
 	 * @param {la date formatée} z 
 	 * @returns la date sans l'année
 	 */
-		function deleteLastChar(z) { 
-			y = z.substring(0, z.length -4);
-			return y;
-		}
+	 function deleteLastChar(z) { 
+		y = z.substring(0, z.length -4);
+		return y;
+	}
+
+	function deleteLastCharH(z) { 
+		y = z.substring(0, z.length -2);
+		return y;
+	}
+
 	/**
 	 * Sert à afficher un texte si ce texte = toto
 	 * @param {string} x 
@@ -49,6 +55,11 @@
 	  data.sort(SortTime);
 	
 	var element = document.getElementById('contain');
+
+	element.innerHTML += 
+	"<h5 id='state'></h5>"+
+	"<mark class=''>Dernière mise à jour : "+deleteLastCharH((moment(data[0].record_timestamp).calendar()).replace(":", "h"))+"</mark>";
+
 		for (i = data.length-5; i < data.length; i++) {
 			element.innerHTML += 
 			"<div class='cartouche color"+data[i].couleur_du_signal_fr+"'><h4>"
